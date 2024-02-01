@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nKEZv8+4FSe8Pd+pPxoGtBInpFSwoZ3PslRwrXRZCEjurU9M5V8kdtF6mKpX+MJ7bWeg6QXo3lJvnLRBAXvDBw==",
+  "dgSpecHash": "JXZowe+fpeZ+VvybFm04p3E4dWeQHgx8N7obLW+TAV0WEYhtNfDq17RKLEnwyLdSQkOtbBDxzTjJuRs/OXQhPw==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,8 @@
     "/Users/anil/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/anil/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/anil/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/anil/.nuget/packages/nlog/5.2.8/nlog.5.2.8.nupkg.sha512",
+    "/Users/anil/.nuget/packages/nlog.extensions.logging/5.3.8/nlog.extensions.logging.5.3.8.nupkg.sha512",
     "/Users/anil/.nuget/packages/npgsql/6.0.0/npgsql.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.0/npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
