@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "glwq6a86Q7hK2wXKzJQpyDrJaXF3E6BA0YEeM2WDuuyBBEa+DJ+mbco7N5FyQlGGerFCfjxOBD8114v50QX46g==",
+  "dgSpecHash": "0YgBkshpBQIk80z8lPGi75hwOGu2wp48Whpa7nyfimpdfHdd7RoTgNNOP2hJD1cROS6L3rNjrWJliQISQx+utw==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Presentation/Presentation.csproj",
   "expectedPackageFiles": [
+    "/Users/anil/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NtqD8SYEzFowgp99xe6wzAdD+AGUc7BKEpEOcfRiBFI7PP0g2tRn+xKdqlGfWyttull6n/oxHu1IwVWZchjrkw==",
+  "dgSpecHash": "5Ht1cKlH9AR4aPH+x230EbSEhZr45SBWw5UBEx8AqB4AWvGqoOMzLtXFA6OLKrtWS2bZz2DRW+xXG/5bPmjJ0A==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Services/Services.csproj",
   "expectedPackageFiles": [
+    "/Users/anil/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.0/microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",

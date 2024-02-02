@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JXZowe+fpeZ+VvybFm04p3E4dWeQHgx8N7obLW+TAV0WEYhtNfDq17RKLEnwyLdSQkOtbBDxzTjJuRs/OXQhPw==",
+  "dgSpecHash": "Uiy6Rv7EFxJTHt/hPiEG0jmDbS3j96Wyj84j7ii8btCdZot8E1KHGW5mjM56//9IV92602mzMq3bl92cZi+VVA==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
+    "/Users/anil/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
