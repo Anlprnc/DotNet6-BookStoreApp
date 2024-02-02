@@ -26,7 +26,7 @@ namespace Presentation.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public IActionResult GetOneBook([FromRoute(Name="id")] int id)
+        public IActionResult GetOneBook([FromRoute(Name = "id")] int id)
         {
             var book = _manager.BookService.GetOneBookById(id, false);
 
@@ -34,17 +34,20 @@ namespace Presentation.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOneBook([FromBody] Book book)
+        public IActionResult CreateOneBook([FromBody] BookDtoForInsertion bookDto)
         {
-            if (book is null)
+            if (bookDto is null)
                 return BadRequest();
 
-            _manager.BookService.CreateOneBook(book);
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+
+            var book = _manager.BookService.CreateOneBook(bookDto);
             return StatusCode(201, book);
         }
 
         [HttpPut("{id:int}")]
-        public IActionResult UpdateOneBook([FromRoute(Name="id")] int id, [FromBody] BookDtoForUpdate bookDto)
+        public IActionResult UpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] BookDtoForUpdate bookDto)
         {
             if (bookDto is null)
                 return BadRequest();
@@ -54,19 +57,24 @@ namespace Presentation.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult DeleteOneBooks([FromRoute(Name="id")] int id)
+        public IActionResult DeleteOneBooks([FromRoute(Name = "id")] int id)
         {
             _manager.BookService.DeleteOneBook(id, false);
-            return NoContent();            
+            return NoContent();
         }
 
         [HttpPatch("{id:int}")]
-        public IActionResult PartiallyUpdateOneBook([FromRoute(Name="id")] int id, [FromBody] JsonPatchDocument<Book> bookPatch)
+        public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<BookDto> bookPatch)
         {
-            var entity = _manager.BookService.GetOneBookById(id, true);
+            var bookDto = _manager.BookService.GetOneBookById(id, true);
 
-            bookPatch.ApplyTo(entity);
-            _manager.BookService.UpdateOneBook(id, new BookDtoForUpdate(entity.Id, entity.Title, entity.Price), true);
+            bookPatch.ApplyTo(bookDto);
+            _manager.BookService.UpdateOneBook(id, new BookDtoForUpdate()
+            {
+                Id = bookDto.Id,
+                Title = bookDto.Title,
+                Price = bookDto.Price
+            }, true);
 
             return NoContent();
         }
