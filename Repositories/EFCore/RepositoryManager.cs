@@ -3,7 +3,7 @@ using Repositories.Contracts;
 namespace Repositories.EFCore
 {
     public class RepositoryManager : IRepositoryManager
-    {   
+    {
         private readonly RepositoryContext _context;
         private readonly Lazy<IBookRepository> _bookRepository;
 
@@ -15,9 +15,9 @@ namespace Repositories.EFCore
 
         public IBookRepository Book => _bookRepository.Value;
 
-        public void Save()
+        public async Task SaveAsync()
         {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Xc3gspJGj6AjvWMBHv7oamLCTkg+W/QQQvM43FQ2Y+G7bJObtcyceyxS/1tu7gXPdYZ6c+b5uHwXY+4KwLrYfQ==",
+  "dgSpecHash": "GiAuqX4hCFplHfKc62ZO1BSqNdGzM3AhrEDPu55SueLJZfwSIS/SdbHg2Sl1WnbclGSpO8N6SkkgVBeUikngPw==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Presentation/Presentation.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.0/microsoft.aspnetcore.jsonpatch.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.2.0/microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.core/2.2.5/microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.responsecaching.abstractions/2.2.0/microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.routing/2.2.0/microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
@@ -45,6 +46,7 @@
     "/Users/anil/.nuget/packages/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "/Users/anil/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/anil/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/anil/.nuget/packages/nlog/5.2.8/nlog.5.2.8.nupkg.sha512",
     "/Users/anil/.nuget/packages/nlog.extensions.logging/5.3.8/nlog.extensions.logging.5.3.8.nupkg.sha512",
     "/Users/anil/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",

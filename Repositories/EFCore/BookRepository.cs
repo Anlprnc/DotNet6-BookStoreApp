@@ -1,4 +1,5 @@
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 
 namespace Repositories.EFCore
@@ -7,19 +8,21 @@ namespace Repositories.EFCore
     {
         public BookRepository(RepositoryContext context) : base(context)
         {
-            
+
         }
 
         public void CreateOneBook(Book book) => Create(book);
 
         public void DeleteOneBook(Book book) => Delete(book);
 
-        public IQueryable<Book> GetAllBooks(bool trackChanges) =>
-            FindAll(trackChanges)
-            .OrderBy(x => x.Id);
+        public async Task<IEnumerable<Book>> GetAllBooksAsync(bool trackChanges) =>
+            await FindAll(trackChanges)
+            .OrderBy(x => x.Id)
+            .ToListAsync();
 
-        public Book GetOneBookById(int id, bool trackChanges) =>
-            FindByCondition(x => x.Id.Equals(id), trackChanges).SingleOrDefault();
+        public async Task<Book> GetOneBookByIdAsync(int id, bool trackChanges) =>
+            await FindByCondition(x => x.Id.Equals(id), trackChanges)
+            .SingleOrDefaultAsync();
 
         public void UpdateOneBook(Book book) => Update(book);
     }
