@@ -57,3 +57,4 @@
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.WebApi.props
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/System.Linq.Dynamic.Core.dll

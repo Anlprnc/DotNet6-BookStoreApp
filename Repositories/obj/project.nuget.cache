@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q86A7y6V5eOCP50i9/GbCkSNyq8Z8rPkl+WP3GtHT3HbOyRWzEqQueAq4MHhTX8cxxRYU7YJ8C23FFJ5kMedjQ==",
+  "dgSpecHash": "ZnEkhzaPhdTAwsEhCKyvEJMdK9vfb0VwwO79ClVzBGI8fURozvYhXPwrvWmVDehpxvNHCisRND/xmoorXGpplQ==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Repositories/Repositories.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/Users/anil/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.linq.dynamic.core/1.3.8/system.linq.dynamic.core.1.3.8.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
