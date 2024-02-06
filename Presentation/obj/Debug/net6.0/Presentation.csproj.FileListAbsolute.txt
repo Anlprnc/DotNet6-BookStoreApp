@@ -17,4 +17,3 @@
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Presentation/obj/Debug/net6.0/refint/Presentation.dll
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Presentation/obj/Debug/net6.0/Presentation.pdb
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Presentation/obj/Debug/net6.0/ref/Presentation.dll
-/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Presentation/obj/Debug/net6.0/Presentation.sourcelink.json

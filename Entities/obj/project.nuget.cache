@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "hwuLE3rTxfo8Wazkzs4Up2lmlb52gQF5JmaaokxcZKAghsc7QpnZZ0YQhOO5e9BfYqiif2/4MzdIzwlM3NNBSA==",
+  "dgSpecHash": "Zpgq0lKdfOtOJHzWAEWk2twaORDYuXtW68kCRlA+7mJk8KRo0PPkXFsYFhL+RHrJ59p5tPmOnxZRg7ceaRFbYw==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Entities/Entities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.2.0/microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.extensions.primitives/2.2.0/microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

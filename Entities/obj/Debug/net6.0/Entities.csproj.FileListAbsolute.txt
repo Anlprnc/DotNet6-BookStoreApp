@@ -9,4 +9,4 @@
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Entities/obj/Debug/net6.0/refint/Entities.dll
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Entities/obj/Debug/net6.0/Entities.pdb
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Entities/obj/Debug/net6.0/ref/Entities.dll
-/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Entities/obj/Debug/net6.0/Entities.sourcelink.json
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Entities/obj/Debug/net6.0/Entities.csproj.AssemblyReference.cache

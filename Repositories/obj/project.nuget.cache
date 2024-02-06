@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "JHaTqtzTYUQlQm3I3qjR0NXkVxacN2XNK8CN4aS37v/z26ilOTcX5DZHJAG6W4/eXzCoWX5FzXz86lcr8Xvsfw==",
+  "dgSpecHash": "uOKW7F/ZIHJyis1s5AZSpeEC9jrgYlTlMHH1gz2TJ+ZtZl2Nt9hDh5glEN6Kt2NgbFLtUl/3JAVmoGVmcoSd8Q==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Repositories/Repositories.csproj",
   "expectedPackageFiles": [
     "/Users/anil/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.2.0/microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.0/microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
@@ -20,10 +24,13 @@
     "/Users/anil/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.linq.dynamic.core/1.3.8/system.linq.dynamic.core.1.3.8.nupkg.sha512",
-    "/Users/anil/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/anil/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
