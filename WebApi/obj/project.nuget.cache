@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/YGYYeRg15xZijtpm1X9E/OpMfl8HVbIV9e2gooro+iea+s7oEyY/3rmV03IyKCWV7cxvjaOa/UUkj0vbRCRxw==",
+  "dgSpecHash": "Xs5uM1QW2bOpX0y0Bn1bjN7cV40tausJl7b4O5J1Jxr0+DpiPQHMjwkS5NfGDZ0tPBG0CjH+yILbZAPrWmY6GA==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.2.0/microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.core/2.2.5/microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.aspnetcore.mvc.versioning/5.1.0/microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.responsecaching.abstractions/2.2.0/microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.routing/2.2.0/microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
