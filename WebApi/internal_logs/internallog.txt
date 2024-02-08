@@ -238,3 +238,75 @@
 2024-02-08 01:08:03.1236 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
 2024-02-08 01:08:03.1821 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
 2024-02-08 01:08:03.1870 Info Configuration initialized.
+2024-02-08 14:34:47.0022 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 14:34:47.0354 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 14:34:47.1020 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 14:34:47.1103 Info Configuration initialized.
+2024-02-08 14:36:55.4556 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 14:36:55.4738 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 14:36:55.5345 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 14:36:55.5398 Info Configuration initialized.
+2024-02-08 14:41:24.8913 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 14:41:24.9049 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 14:41:24.9610 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 14:41:24.9668 Info Configuration initialized.
+2024-02-08 14:50:05.4310 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 14:50:05.4460 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 14:50:05.5031 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 14:50:05.5081 Info Configuration initialized.
+2024-02-08 15:01:46.3666 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:01:46.3838 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:01:46.4468 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:01:46.4522 Info Configuration initialized.
+2024-02-08 15:03:14.5690 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:03:14.5843 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:03:14.6432 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:03:14.6484 Info Configuration initialized.
+2024-02-08 15:05:00.1867 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:05:00.2012 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:05:00.2596 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:05:00.2647 Info Configuration initialized.
+2024-02-08 15:12:01.6649 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:12:01.6787 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:12:01.7372 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:12:01.7422 Info Configuration initialized.
+2024-02-08 15:19:40.5967 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:19:40.6228 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:19:40.6843 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:19:40.6898 Info Configuration initialized.
+2024-02-08 15:23:00.6752 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:23:00.6956 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:23:00.7515 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:23:00.7566 Info Configuration initialized.
+2024-02-08 15:23:33.7448 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:23:33.7677 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:23:33.8260 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:23:33.8313 Info Configuration initialized.
+2024-02-08 15:55:45.2599 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 15:55:45.2748 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 15:55:45.3374 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 15:55:45.3427 Info Configuration initialized.
+2024-02-08 16:24:46.0764 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 16:24:46.0917 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 16:24:46.1507 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 16:24:46.1560 Info Configuration initialized.
+2024-02-08 16:24:46.7339 Info AppDomain Shutting down. LogFactory closing...
+2024-02-08 16:24:46.7366 Info LogFactory has been closed.
+2024-02-08 16:25:56.8294 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 16:25:56.8445 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 16:25:56.9023 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 16:25:56.9074 Info Configuration initialized.
+2024-02-08 16:25:57.6088 Info AppDomain Shutting down. LogFactory closing...
+2024-02-08 16:25:57.6121 Info LogFactory has been closed.
+2024-02-08 16:36:49.7345 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 16:36:49.7485 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 16:36:49.8050 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 16:36:49.8099 Info Configuration initialized.
+2024-02-08 16:36:50.3766 Info AppDomain Shutting down. LogFactory closing...
+2024-02-08 16:36:50.3794 Info LogFactory has been closed.
+2024-02-08 16:37:32.5078 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 16:37:32.5230 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-08 16:37:32.5802 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/nlog.config
+2024-02-08 16:37:32.5853 Info Configuration initialized.
+2024-02-08 16:37:33.2274 Info AppDomain Shutting down. LogFactory closing...
+2024-02-08 16:37:33.2301 Info LogFactory has been closed.
