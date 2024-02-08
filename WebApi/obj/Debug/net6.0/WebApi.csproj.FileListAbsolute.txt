@@ -56,3 +56,16 @@
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Marvin.Cache.Headers.dll
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/AspNetCoreRateLimit.dll
 /Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/WebApi.sourcelink.json
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets/msbuild.build.WebApi.props
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/WebApi/obj/Debug/net6.0/staticwebassets.pack.json
