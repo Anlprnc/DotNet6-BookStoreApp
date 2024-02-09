@@ -43,7 +43,7 @@ namespace Services
             _user.RefreshToken = refreshToken;
 
             if (populateExp)
-                _user.RefreshTokenExpiryTime = DateTime.Now.AddDays(7);
+                _user.RefreshTokenExpiryTime = DateTime.UtcNow.AddDays(7);
 
             await _userManager.UpdateAsync(_user);
 
@@ -112,7 +112,7 @@ namespace Services
                     issuer: jwtSettings["validIssuer"],
                     audience: jwtSettings["validAudience"],
                     claims: claims,
-                    expires: DateTime.Now.AddMinutes(Convert.ToDouble(jwtSettings["expires"])),
+                    expires: DateTime.UtcNow.AddMinutes(Convert.ToDouble(jwtSettings["expires"])),
                     signingCredentials: signinCredentials);
 
             return tokenOptions;
@@ -167,7 +167,7 @@ namespace Services
 
             if (user is null ||
                 user.RefreshToken != tokenDto.RefreshToken ||
-                user.RefreshTokenExpiryTime <= DateTime.Now)
+                user.RefreshTokenExpiryTime <= DateTime.UtcNow)
                 throw new RefreshTokenBadRequestException();
 
             _user = user;
