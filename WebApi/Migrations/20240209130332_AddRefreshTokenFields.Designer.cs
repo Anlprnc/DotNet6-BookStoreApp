@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Repositories.EFCore;
@@ -11,9 +12,10 @@ using Repositories.EFCore;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20240209130332_AddRefreshTokenFields")]
+    partial class AddRefreshTokenFields
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -166,22 +168,22 @@ namespace WebApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a4417ce0-56c7-401e-a975-54606b82c766",
-                            ConcurrencyStamp = "74ea119e-57ed-4019-ae09-2d40d17a5151",
+                            Id = "f94a7e81-0808-4578-a1ad-2ca8c608206b",
+                            ConcurrencyStamp = "355158e0-900f-40b0-9660-9edd465d6454",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "ffc393ca-7d6d-42bc-90b9-75cd34055f00",
-                            ConcurrencyStamp = "3b68bc69-1a3b-471e-8306-b7b4ef6dcf32",
+                            Id = "aabcb2e9-b86a-4c4e-9d08-a3c1e13fda54",
+                            ConcurrencyStamp = "9da92bb3-9b9c-4b9f-b896-51a8ba3e7686",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         },
                         new
                         {
-                            Id = "7266d9bd-acd4-4eee-b963-36e3e4ce7eaf",
-                            ConcurrencyStamp = "c73449ae-0e96-4118-93ab-95565e19bfa8",
+                            Id = "996dff40-1dce-4cd9-8464-5e8d68699794",
+                            ConcurrencyStamp = "69fa2e8e-8633-49ed-bc31-0928bf15146d",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });

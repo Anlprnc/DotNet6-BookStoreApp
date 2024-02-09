@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HVSDzs3bdW4fKB/6dpJUFsOy/1GPOjny5ntHLncM5YoCBRTokHCQ3kbGwmuuIX0GquG/yq9eYbRDnyezkFRsFg==",
+  "dgSpecHash": "KP5VMHVFJyXmIP5XFqJ8fbjZhGNszaZ0gcCtROMOqJz8bXCILzYyPYOYwtJbzHoqjClrtQ4P8dMrzAbGI+JYzw==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Services/Services.csproj",
   "expectedPackageFiles": [
@@ -29,15 +29,41 @@
     "/Users/anil/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.14.1/microsoft.identitymodel.jsonwebtokens.6.14.1.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.identitymodel.logging/6.14.1/microsoft.identitymodel.logging.6.14.1.nupkg.sha512",
+    "/Users/anil/.nuget/packages/microsoft.identitymodel.tokens/6.14.1/microsoft.identitymodel.tokens.6.14.1.nupkg.sha512",
     "/Users/anil/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/nlog/5.2.8/nlog.5.2.8.nupkg.sha512",
     "/Users/anil/.nuget/packages/nlog.extensions.logging/5.3.8/nlog.extensions.logging.5.3.8.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.identitymodel.tokens.jwt/6.14.1/system.identitymodel.tokens.jwt.6.14.1.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.linq.dynamic.core/1.3.8/system.linq.dynamic.core.1.3.8.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/anil/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.14.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.14.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
