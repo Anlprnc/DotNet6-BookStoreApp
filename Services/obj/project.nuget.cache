@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KP5VMHVFJyXmIP5XFqJ8fbjZhGNszaZ0gcCtROMOqJz8bXCILzYyPYOYwtJbzHoqjClrtQ4P8dMrzAbGI+JYzw==",
+  "dgSpecHash": "yBLJmkejRQWnmOCjW8zD5ydy4yXADjzmlszxx34shr4uODHNp5XzA0VkY8ZafsRPSXGVmpARUcLxKQF6TUqaGA==",
   "success": true,
   "projectFilePath": "/Users/anil/Documents/Development/Dotnet/Btk-Akademi/bsStoreApp/Services/Services.csproj",
   "expectedPackageFiles": [
@@ -44,26 +44,5 @@
     "/Users/anil/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/Users/anil/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.14.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.14.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

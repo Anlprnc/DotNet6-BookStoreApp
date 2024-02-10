@@ -12,8 +12,8 @@ using Repositories.EFCore;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20240209130332_AddRefreshTokenFields")]
-    partial class AddRefreshTokenFields
+    [Migration("20240210130634_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -61,6 +61,40 @@ namespace WebApi.Migrations
                             Id = 3,
                             Price = 85m,
                             Title = "LOTR"
+                        });
+                });
+
+            modelBuilder.Entity("Entities.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CategoryId"));
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Computer Science"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            CategoryName = "Network"
+                        },
+                        new
+                        {
+                            CategoryId = 3,
+                            CategoryName = "Database Management Systems"
                         });
                 });
 
@@ -115,7 +149,7 @@ namespace WebApi.Migrations
                     b.Property<string>("RefreshToken")
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("RefreshTokenExpiryTime")
+                    b.Property<DateTimeOffset>("RefreshTokenExpiryTime")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("SecurityStamp")
@@ -168,22 +202,22 @@ namespace WebApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "f94a7e81-0808-4578-a1ad-2ca8c608206b",
-                            ConcurrencyStamp = "355158e0-900f-40b0-9660-9edd465d6454",
+                            Id = "99a4cbf0-d394-437c-a0ea-0508ce3313fd",
+                            ConcurrencyStamp = "8f537d85-c219-423e-b90c-9fae45ee8760",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "aabcb2e9-b86a-4c4e-9d08-a3c1e13fda54",
-                            ConcurrencyStamp = "9da92bb3-9b9c-4b9f-b896-51a8ba3e7686",
+                            Id = "6077ca34-ef3f-49bb-8659-0ee47bde4d72",
+                            ConcurrencyStamp = "ef308c3a-4304-41e5-a7a8-ec19f5f02c33",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         },
                         new
                         {
-                            Id = "996dff40-1dce-4cd9-8464-5e8d68699794",
-                            ConcurrencyStamp = "69fa2e8e-8633-49ed-bc31-0928bf15146d",
+                            Id = "77bf37a0-ea83-44e7-90f2-e86d573f351f",
+                            ConcurrencyStamp = "4a9c10ca-a27d-45f8-b5ff-1618fe4ec3d3",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });

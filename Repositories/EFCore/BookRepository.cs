@@ -3,6 +3,7 @@ using Entities.RequestFeatures;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 
+
 namespace Repositories.EFCore
 {
     public sealed class BookRepository : RepositoryBase<Book>, IBookRepository
@@ -13,10 +14,9 @@ namespace Repositories.EFCore
         }
 
         public void CreateOneBook(Book book) => Create(book);
-
         public void DeleteOneBook(Book book) => Delete(book);
-
-        public async Task<PagedList<Book>> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges)
+        public async Task<PagedList<Book>> GetAllBooksAsync(BookParameters bookParameters,
+            bool trackChanges)
         {
             var books = await FindAll(trackChanges)
                 .FilterBooks(bookParameters.MinPrice, bookParameters.MaxPrice)
@@ -24,18 +24,22 @@ namespace Repositories.EFCore
                 .Sort(bookParameters.OrderBy)
                 .ToListAsync();
 
-            return PagedList<Book>.ToPagedList(books, bookParameters.PageNumber, bookParameters.PageSize);
+            return PagedList<Book>
+                .ToPagedList(books,
+                bookParameters.PageNumber,
+                bookParameters.PageSize);
         }
 
         public async Task<List<Book>> GetAllBooksAsync(bool trackChanges)
         {
-            return await FindAll(trackChanges).OrderBy(b => b.Id).ToListAsync();
+            return await FindAll(trackChanges)
+                .OrderBy(b => b.Id)
+                .ToListAsync();
         }
 
         public async Task<Book> GetOneBookByIdAsync(int id, bool trackChanges) =>
-            await FindByCondition(x => x.Id.Equals(id), trackChanges)
+            await FindByCondition(b => b.Id.Equals(id), trackChanges)
             .SingleOrDefaultAsync();
-
         public void UpdateOneBook(Book book) => Update(book);
     }
 }

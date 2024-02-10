@@ -177,7 +177,7 @@ namespace WebApi.Extensions
         {
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new OpenApiInfo { Title = "BookStore API", Version = "v1" });
+                s.SwaggerDoc("v1", new OpenApiInfo { Title = "BookStore API", Version = "v1", Description = "BookStore ASP.NET Core Web API", TermsOfService = new Uri("https://example.com/terms"), Contact = new OpenApiContact { Name = "Example Contact Name", Email = "example@gmail.com", Url = new Uri("https://example.com") } });
                 s.SwaggerDoc("v2", new OpenApiInfo { Title = "BookStore API", Version = "v2" });
 
                 s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -205,6 +205,19 @@ namespace WebApi.Extensions
                     }
                 });
             });
+        }
+
+        public static void RegisterRepositories(this IServiceCollection services)
+        {
+            services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+        }
+
+        public static void RegisterServices(this IServiceCollection services)
+        {
+            services.AddScoped<IBookService, BookManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<IAuthenticationService, AuthenticationManager>();
         }
     }
 }

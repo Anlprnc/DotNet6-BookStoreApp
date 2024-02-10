@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace WebApi.Migrations
 {
-    public partial class CreatingIdentityTables : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -31,6 +31,8 @@ namespace WebApi.Migrations
                     Id = table.Column<string>(type: "text", nullable: false),
                     FirstName = table.Column<string>(type: "text", nullable: true),
                     LastName = table.Column<string>(type: "text", nullable: true),
+                    RefreshToken = table.Column<string>(type: "text", nullable: true),
+                    RefreshTokenExpiryTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
                     UserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
@@ -49,6 +51,33 @@ namespace WebApi.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Books",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Title = table.Column<string>(type: "text", nullable: false),
+                    Price = table.Column<decimal>(type: "numeric", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Books", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Categories",
+                columns: table => new
+                {
+                    CategoryId = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    CategoryName = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categories", x => x.CategoryId);
                 });
 
             migrationBuilder.CreateTable(
@@ -157,6 +186,36 @@ namespace WebApi.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "6077ca34-ef3f-49bb-8659-0ee47bde4d72", "ef308c3a-4304-41e5-a7a8-ec19f5f02c33", "Editor", "EDITOR" },
+                    { "77bf37a0-ea83-44e7-90f2-e86d573f351f", "4a9c10ca-a27d-45f8-b5ff-1618fe4ec3d3", "Admin", "ADMIN" },
+                    { "99a4cbf0-d394-437c-a0ea-0508ce3313fd", "8f537d85-c219-423e-b90c-9fae45ee8760", "User", "USER" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Books",
+                columns: new[] { "Id", "Price", "Title" },
+                values: new object[,]
+                {
+                    { 1, 100m, "Foundation" },
+                    { 2, 90m, "Dune" },
+                    { 3, 85m, "LOTR" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryId", "CategoryName" },
+                values: new object[,]
+                {
+                    { 1, "Computer Science" },
+                    { 2, "Network" },
+                    { 3, "Database Management Systems" }
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -211,6 +270,12 @@ namespace WebApi.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Books");
+
+            migrationBuilder.DropTable(
+                name: "Categories");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
