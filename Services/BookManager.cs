@@ -1,4 +1,3 @@
-using System.Dynamic;
 using AutoMapper;
 using Entities.DataTransferObjects;
 using Entities.Exceptions;
@@ -55,6 +54,11 @@ namespace Services
         {
             var books = await _manager.Book.GetAllBooksAsync(trackChanges);
             return books;
+        }
+
+        public async Task<IEnumerable<Book>> GetAllBooksWithDetailsAsync(bool trackChanges)
+        {
+            return await _manager.Book.GetAllBooksWithDetailsAsync(trackChanges);
         }
 
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
