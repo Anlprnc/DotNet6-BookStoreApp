@@ -19,13 +19,15 @@ builder.Services.AddControllers(config =>
 .AddCustomCsvFormatter()
 .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
 .AddNewtonsoftJson(opt =>
-    opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+    opt.SerializerSettings.ReferenceLoopHandling =
+    Newtonsoft.Json.ReferenceLoopHandling.Ignore
 );
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
 });
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.ConfigureSwagger();
@@ -61,8 +63,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(s =>
     {
-        s.SwaggerEndpoint("/swagger/v1/swagger.json", "BookStore API v1");
-        s.SwaggerEndpoint("/swagger/v2/swagger.json", "BookStore API v2");
+        s.SwaggerEndpoint("/swagger/v1/swagger.json", "BTK Akademi v1");
+        s.SwaggerEndpoint("/swagger/v2/swagger.json", "BTK Akademi v2");
     });
 }
 

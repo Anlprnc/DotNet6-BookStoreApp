@@ -1,10 +1,4 @@
-using AutoMapper;
-using Entities.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Configuration;
-using Repositories.Contracts;
 using Services.Contracts;
-
 
 namespace Services
 {
